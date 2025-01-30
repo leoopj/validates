@@ -9,6 +9,7 @@ namespace ValidateCpf
     public class ValidateCpf
     {
         private readonly ILogger<ValidateCpf> _logger;
+
         public ValidateCpf(ILogger<ValidateCpf> logger)
              => _logger = logger;
 
